@@ -1,0 +1,35 @@
+﻿<div ng-app="CurrencyApp">
+    <div ng-controller="CurrencyController">
+        <div class="input-append input-group date" size="16" style="margin-bottom:10px">
+            <label for="datePicker">Select the date: </label>
+            <input name="datePicker" type="text" class="form-control" ng-model="selectedDate" date-picker/>
+        </div>
+        <button type="button" class="btn btn-default" ng-click="GetCurrencyRates()" style="margin-bottom:10px"
+                data-toggle="tooltip" title="Works only with the dates up to the end of the year 2014" data-placement="top">
+                Get rates
+        </button>
+        <div class="alert alert-danger" ng-show="error">
+            {{errorMsg}}     
+        </div>
+
+        <table class="table" style="margin-top:50px">
+            <tr>
+                <th>Country</th>
+                <th>Ouantity</th>
+                <th>Rate in {{selectedDate}}</th>
+                <th>Rate in {{selectedDate}}</th>
+                <th>Change</th>
+            </tr>
+            <tr ng-repeat="c in Currencies">
+                <td>{{c.Country}}</td>
+                <td>{{c.Quantity}}</td>
+                <td>{{c.Rate}}</td>
+                <td>{{c.PastRate}}</td>
+                <td>{{c.Change}}</td>
+            </tr>
+        </table>
+    </div>
+</div>
+<script>
+    //$('#date-input').datepicker();
+</script>

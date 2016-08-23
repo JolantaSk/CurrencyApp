@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency app</title>
+    @Styles.Render("~/Content/css")
+    @*@Scripts.Render("~/bundles/modernizr")*@
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/angular");
+    @Scripts.Render("~/bundles/customScripts")
+    @RenderSection("scripts", required: false)
+</head>
+<body>
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Welcome to Currency rate checker</h1>
+            <p>
+                Entering the date will display the comparison of rates on the seleted date and the day before
+            </p>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+    </div>
+
+</body>
+</html>
