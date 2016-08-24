@@ -13,8 +13,8 @@ There is small depoyment bug, that you wont be able to see arrows for month chan
 **bootstrap** chosen for easier app styling  
 
 ##Backend: ##  
-.NET 4.5 framework as used for ability to access webApi
-MVC architectural pattern was used for concept segregation.
+**.NET 4.5** framework as used for ability to access webApi.    
+**MVC** architectural pattern was used for concept segregation.
 **WebApi** is used for easier communication with the clinet side.    
 Service refence was added for the communication with LB service.   
 
