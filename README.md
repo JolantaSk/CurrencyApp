@@ -8,7 +8,7 @@ There is small depoyment bug, that you wont be able to see arrows for month chan
 # App choices
 
 ##Frontend: ##
-**AngularJS ** framework chosen for easy data retrieving, keeping losing structure of javascript files and future sctipts reusability and easier data visualization in the DOM   
+**AngularJS** framework chosen for easy data retrieving, keeping losing structure of javascript files and future sctipts reusability and easier data visualization in the DOM   
 **jQuery** chosen for the datepicker and some common functionality  
 **bootstrap** chosen for easier app styling  
 
