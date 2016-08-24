@@ -7,8 +7,8 @@ Note that the app only works with the dates till the end of 2014.
 # App choices
 
 ##Frontend: ##
-**AngularJS** for easy data retrieving, not losing structure of javascript files and easier data visualization in the DOM
-**jQuery** for datepicker
-**bootstrap** for easier app styling
+**AngularJS** for easy data retrieving, not losing structure of javascript files and easier data visualization in the DOM   
+**jQuery** for the datepicker  
+**bootstrap** for easier app styling  
 
 
