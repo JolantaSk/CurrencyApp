@@ -7,14 +7,15 @@ There is small depoyment bug, that you wont be able to see arrows for month chan
 
 # App choices
 
-##Frontend: ##
+##Frontend:
 **AngularJS** framework chosen for easy data retrieving, keeping losing structure of javascript files and future sctipts reusability and easier data visualization in the DOM   
 **jQuery** chosen for the datepicker and some common functionality  
 **bootstrap** chosen for easier app styling  
 
-##Backend: ##  
+##Backend:   
 **.NET 4.5** framework as used for ability to access webApi.    
-**MVC** architectural pattern was used for concept segregation.
-**WebApi** is used for easier communication with the clinet side.    
-Service refence was added for the communication with LB service.   
+**MVC** architectural pattern was used for concept segregation.    
+**WebApi** is used for easier communication with the clinet side.       
+Service refence was added for the communication with LB service.  
+
 
