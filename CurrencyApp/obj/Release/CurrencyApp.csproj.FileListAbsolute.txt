@@ -61,4 +61,3 @@ C:\Users\Jolanta\Documents\dev\currencyApp\CurrencyApp\bin\System.Web.WebPages.R
 C:\Users\Jolanta\Documents\dev\currencyApp\CurrencyApp\obj\Release\CurrencyApp.csproj.App.config
 C:\Users\Jolanta\Documents\dev\currencyApp\CurrencyApp\obj\Release\CurrencyApp.dll
 C:\Users\Jolanta\Documents\dev\currencyApp\CurrencyApp\obj\Release\CurrencyApp.pdb
-C:\Users\Jolanta\Documents\dev\currencyApp\CurrencyApp\obj\Release\CurrencyApp.csprojResolveAssemblyReference.cache
