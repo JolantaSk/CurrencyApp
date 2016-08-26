@@ -8,9 +8,9 @@ There is small depoyment bug, that you wont be able to see arrows for month chan
 # App choices
 
 ##Frontend:
-**AngularJS** framework chosen for easy data retrieving, keeping structure of javascript files, future sctipts reusability and easier data visualization in the DOM   
-**jQuery** chosen for the datepicker and some common functionality  
-**bootstrap** chosen for easier app styling  
+**AngularJS** framework chosen for easy data retrieving, keeping structure of javascript files, future sctipts reusability and easier data visualization in the DOM.   
+**jQuery** chosen for the datepicker and some common functionality.  
+**bootstrap** chosen for easier app styling.  
 
 ##Backend:   
 **.NET 4.5** framework is used for ability to access webApi.    
